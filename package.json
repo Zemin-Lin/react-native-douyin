@@ -1,5 +1,5 @@
 {
-  "name": "react-native-douyin-lib",
+  "name": "@react-native-ohos/react-native-douyin-lib",
   "title": "React Native Douyin",
   "version": "1.1.4",
   "description": "抖音登录、分享",
@@ -29,5 +29,14 @@
   "devDependencies": {
     "react": "^16.8.3",
     "react-native": "^0.59.10"
-  }
+  },
+  "harmony": {
+     "alias": "react-native-douyin-lib",
+ 	   "autolinking": {
+ 	  	  "etsPackageClassName":"RNDouYinPackage",
+ 	  	  "cppPackageClassName":"DouYinPackage",
+ 	  	  "cmakeLibraryTargetName": "rnoh_douyin", 
+ 	  	  "ohPackageName": "@react-native-ohos/react-native-douyin-lib"
+ 	  }
+ 	}
 }

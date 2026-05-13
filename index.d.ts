@@ -11,7 +11,7 @@ declare module "react-native-douyin-lib" {
 
   export function init(appKey: string):Promise<void>;
 
-  export function auth(scope: string,state:string): Promise<any>;
+  export function auth(scope: string,state:string,appLink:string): Promise<any>;
 
   export function shareVideo(shareConfig: {
     videos: string[];

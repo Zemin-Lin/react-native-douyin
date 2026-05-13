@@ -1,0 +1,14 @@
+{
+  "name": "@react-native-ohos/react-native-douyin-lib",
+  "version": "1.1.4",
+  "description": "Keep the screen from going to sleep",
+  "main": "index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@rnoh/react-native-openharmony": "file:../libs/react_native_openharmony-5.0.0.490.har",
+    "@douyin/opensdk-common-external": "0.0.5"
+  }
+}
+
+

@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "react-native-douyin",
+        "License": "MIT License",
+        "License File": "https://github.com/wiseqingyang/react-native-douyin/blob/master/LICENSE",
+        "Version Number": "1.1.4",
+        "Owner" : "panjinling@huawei.com",
+        "Upstream URL": "https://github.com/wiseqingyang/react-native-douyin",
+        "Description": "Tool library for initialization, authorization and sharing of Tiktok sdk"
+    }
+]

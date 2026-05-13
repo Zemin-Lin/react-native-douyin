@@ -7,8 +7,8 @@ export default Douyin = {
     DouYinModule.init(appKey);
   },
 
-  auth(scope, state) {
-    return DouYinModule.auth(scope, state);
+  auth(scope, state, appLink) {
+    return DouYinModule.auth(scope, state, appLink);
   },
 
   shareVideo(config) {
