@@ -3,7 +3,7 @@
   "title": "React Native Douyin",
   "version": "1.2.0-rc.1",
   "description": "抖音登录、分享",
-  "main": "index.js",
+  "main": "src/RNDouYin.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
